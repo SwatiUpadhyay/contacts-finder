@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: teacher-contact-finder
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
